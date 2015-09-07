@@ -32,17 +32,20 @@ p {
 	}
 }
 
-.shirt {
+.dumb, .shirt {
 	height: 450px;
 	width: 100%;
 	border: 2px solid #76b1df;
-	border-bottom: none;
 	display: inline-block;
 	position: relative;
 	text-align: center;
 }
 
-#t-shirt{
+.shirt {
+	border: none;
+}
+
+.shirtFront, .shirtBack {
 	width: 60%;
 	height: 40%;
 	position: absolute;
@@ -51,6 +54,8 @@ p {
 	left: 50%;
 	margin-right: -50%;
 }
+
+
 
 .flip {
 	width: 50px;
