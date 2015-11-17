@@ -52,7 +52,7 @@ p {
 	margin-right: -50%;
 }
 
-.flip {
+.flipButton {
 	width: 50px;
 	height: 50px;
 	border: 2px solid #76b1df;
@@ -62,7 +62,7 @@ p {
 	position: absolute;
 }
 
-.flip:hover, .flip:hover i {
+.flipButton:hover, .flipButton:hover i {
 	background-color: #76b1df;
 	color: white;
 	cursor: pointer;
